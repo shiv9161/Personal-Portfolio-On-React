@@ -8,6 +8,8 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/movieBuff.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/anjaniCreation.png";
+import netflix from "../../Assets/Projects/netflix.png";
+
 
 function Projects() {
   return (
@@ -40,6 +42,17 @@ function Projects() {
               description="Anjani Creations presents a cutting-edge website, meticulously crafted with HTML, CSS, JavaScript, React, and Next.js. Our platform showcases innovative designs and seamless user experiences, reflecting our commitment to creativity and excellence. Explore our portfolio, engage with our latest projects, and discover the artistry behind every creation."
               ghLink="/"
               demoLink="https://www.anjanicreations.in/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Clone"
+              description="Revolutionary React-powered Netflix clone, offering seamless streaming experience with a sleek UI. Developed with cutting-edge technology, it delivers personalized content recommendations, user profiles, and seamless playback. Built for scalability and performance, this clone mirrors Netflix's functionality while providing a customizable platform for content distribution."
+              ghLink="https://github.com/shiv9161/Netflx-Clone"
+            // demoLink="https://www.anjanicreations.in/"
             />
           </Col>
 
