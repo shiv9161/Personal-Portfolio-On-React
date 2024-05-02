@@ -10,7 +10,6 @@ import chatify from "../../Assets/Projects/movieBuff.png";
 import bitsOfCode from "../../Assets/Projects/anjaniCreation.png";
 import netflix from "../../Assets/Projects/netflix.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -52,10 +51,9 @@ function Projects() {
               title="Netflix Clone"
               description="Revolutionary React-powered Netflix clone, offering seamless streaming experience with a sleek UI. Developed with cutting-edge technology, it delivers personalized content recommendations, user profiles, and seamless playback. Built for scalability and performance, this clone mirrors Netflix's functionality while providing a customizable platform for content distribution."
               ghLink="https://github.com/shiv9161/Netflx-Clone"
-            // demoLink="https://www.anjanicreations.in/"
+              demoLink="https://netflx-clone-six.vercel.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
